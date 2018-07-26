@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Home</title>
-    <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/app.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
 
@@ -32,7 +32,7 @@
         </main>
     </div>
 </div>
-<script src="{{ secure_asset('js/app.js') }}"></script>
+<script src="{{ asset('js/app.js') }}"></script>
 @yield('js')
 </body>
 </html>

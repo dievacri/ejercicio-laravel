@@ -10,7 +10,7 @@
 </head>
 <body>
     @yield('content')
-    <script src="{{ secure_asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
     @yield('js')
 </body>
 </html>
