@@ -6,7 +6,7 @@
     <meta name="author" content="">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Ejercicio Laravel</title>
-    <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/app.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
 </head>
 <body>
     @yield('content')
