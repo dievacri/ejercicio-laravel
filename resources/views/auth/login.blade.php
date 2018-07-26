@@ -21,5 +21,5 @@
 @endsection
 
 @section('js')
-    <script src="{{ asset('js/auth/login.js') }}"></script>
+    <script src="{{ secure_asset('js/auth/login.js') }}"></script>
 @endsection
