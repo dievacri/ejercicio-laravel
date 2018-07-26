@@ -6,11 +6,11 @@
     <meta name="author" content="">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Ejercicio Laravel</title>
-    {{ HTML::style('css/style.css', array(), true) }}
+    <link rel="stylesheet" type="text/css" href="{{ secure_asset('css/app.css') }}">
 </head>
 <body>
     @yield('content')
-    {{ HTML::script('js/script.js', array(), true) }}
+    <script src="{{ secure_asset('js/app.js') }}"></script>
     @yield('js')
 </body>
 </html>
